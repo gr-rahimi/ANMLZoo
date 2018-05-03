@@ -1,0 +1,54 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <automata-network id="temp">
+        <state-transition-element id="__0__" symbol-set="[\x00]" start="all-input">
+            <activate-on-match element="__1__"/>
+        </state-transition-element>
+        <state-transition-element id="__1__" symbol-set="[\x01]">
+            <activate-on-match element="__2__"/>
+        </state-transition-element>
+        <state-transition-element id="__2__" symbol-set="[\x02]">
+            <activate-on-match element="__3__"/>
+            <!--report-on-match reportcode="0"/-->
+        </state-transition-element>
+        <state-transition-element id="__3__" symbol-set="[\x03]">
+            <activate-on-match element="__4__"/>
+        </state-transition-element>
+        <state-transition-element id="__4__" symbol-set="[\x04]">
+            <activate-on-match element="__5__"/>
+        </state-transition-element>
+        <state-transition-element id="__5__" symbol-set="[\x05]">
+            <activate-on-match element="__6__"/>
+        </state-transition-element>
+        <state-transition-element id="__6__" symbol-set="[\x06]">
+            <activate-on-match element="__7__"/>
+        </state-transition-element>
+        <state-transition-element id="__7__" symbol-set="[\x07]">
+            <activate-on-match element="__8__"/>
+        </state-transition-element>
+        <state-transition-element id="__8__" symbol-set="[\x08]">
+            <activate-on-match element="__9__"/>
+        </state-transition-element>
+        <state-transition-element id="__9__" symbol-set="[\x09]">
+            <activate-on-match element="__10__"/>
+        </state-transition-element>
+        <state-transition-element id="__10__" symbol-set="[\x0a]">
+            <activate-on-match element="__11__"/>
+        </state-transition-element>
+        <state-transition-element id="__11__" symbol-set="[\x0b]">
+            <activate-on-match element="__12__"/>
+        </state-transition-element>
+        <state-transition-element id="__12__" symbol-set="[\x0c]">
+            <activate-on-match element="__13__"/>
+        </state-transition-element>
+        <state-transition-element id="__13__" symbol-set="[\x0d]">
+            <activate-on-match element="__14__"/>
+        </state-transition-element>
+        <state-transition-element id="__14__" symbol-set="[\x0e]">
+            <activate-on-match element="__15__"/>
+        </state-transition-element>
+        <state-transition-element id="__15__" symbol-set="[\x0f]">
+            <report-on-match reportcode="1"/>
+            <!--activate-on-match element="__0__"/-->
+        </state-transition-element>
+    </automata-network>
+</anml>
